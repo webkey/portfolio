@@ -1,4 +1,0 @@
-.01_1-arrow-select-languages{ background-position: 0 0; width: 8px; height: 5px; }
-.02_1-arrow-select{ background-position: 0 -25px; width: 10px; height: 6px; }
-
-SPACE - 20px

@@ -1,9 +1,0 @@
-Sprite created with the online service http://spritegen.website-performance.org/
-
-Settings
-Layout: vertical
-CSS/LESS: css
- Style prefix: sp
-Padding: 10px
-Data URI: none
-
