@@ -2,100 +2,12 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
 	<title>Portfolio</title>
 	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
-	<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
-	<style>
-		body{
-			margin: 0;
-			padding: 0;
-			font: 18px/20px 'roboto condensed', Arial, Helvetica, sans-serif;
-			color: #5b5b5b;
-			background: url(bg1-DEL.png);
-		}
-		.center{
-			width: 900px;
-			margin: 0 auto;
-			padding: 12px 40px;
-		}
-		.projects-list,
-		.projects-list ul{
-			padding: 0;
-			margin: 0;
-			list-style: none;
-			font-size: 16px;
-		}
-		.projects-list{
-			counter-reset: section;
-		}
-		.projects-list > li{
-			padding: 0 0 12px;
-			counter-increment: section;
-		}
-		.projects-list > li:before{
-			float: left;
-			text-align: center;
-			width: 20px;
-			height: 20px;
-			font-size: 20px;
-			line-height: 20px;
-			content: counter(section);
-			border: 2px solid #5b5b5b;
-			background: rgba(55, 190, 255, 0.35);
-			padding: 3px;
-			margin: 0 10px 0 -40px;
-		}
-		.projects-list > li > strong{
-			display: block;
-			padding: 0 0 6px;
-			font-size: 24px;
-			line-height: 28px;
-			overflow: hidden;
-			text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.8);
-		}
-		.projects-list > li > strong > *{
-			/*cursor: pointer;*/
-			color: #5b5b5b;
-		}
-		.projects-list > li > strong > *:hover{
-			color: #747474;
-		}
-		.projects-list a{
-			color: #0049b0;
-			text-decoration: underline;
-		}
-		.projects-list a:hover{
-			color: #0049b0;
-			text-decoration: none;
-		}
-		.projects-list a:visited{
-			color: #90b0af;
-			text-decoration: underline;
-		}
-		.projects-list ul{
-			padding: 16px 12px;
-			background: rgba(255, 255, 255, 0.75);
-			border-radius: 4px;
-			box-shadow: 0 6px 2px -5px rgba(0, 0, 0, 0.35);
-		}
-		.projects-list ul > li{
-			position: relative;
-			padding: 0 0 2px 18px;
-		}
-		.projects-list ul > li:before{
-			content: '';
-			position: absolute;
-			left: 0;
-			top: 9px;
-			height: 4px;
-			width: 4px;
-			border-radius: 50%;
-			background: #0049b0;
-		}
-		.projects-list ul > li > a{}
-		.projects-list ul{}
-		.projects-list{}
-	</style>
+	<link rel="stylesheet" href="css/all.css" />
 </head>
 <body>
 	<div class="center">
@@ -104,148 +16,101 @@
 			<li>
 				<strong><span>Akbars</span></strong>
 				<ul>
-					<li><a href="akbars/about.html" target="_blank">about.html</a></li>
-					<li><a href="akbars/action.html" target="_blank">action.html</a></li>
-					<li><a href="akbars/complexes.html" target="_blank">complexes.html</a></li>
-					<li><a href="akbars/contacts.html" target="_blank">contacts.html</a></li>
-					<li><a href="akbars/contests.html" target="_blank">contests.html</a></li>
-					<li><a href="akbars/favorites.html" target="_blank">favorites.html</a></li>
-					<li><a href="akbars/main.html" target="_blank">main.html</a></li>
-					<li><a href="akbars/news.html" target="_blank">news.html</a></li>
-					<li><a href="akbars/objects.html" target="_blank">objects.html</a></li>
-					<li><a href="akbars/payment.html" target="_blank">payment.html</a></li>
-					<li><a href="akbars/realty.html" target="_blank">realty.html</a></li>
-					<li><a href="akbars/realty-alt.html" target="_blank">realty-alt.html</a></li>
+					<li>
+						<a href="akbars/main.html" target="_blank" title="akbars/main.html">
+							<img src="img/akbars-main.jpg" width="500" height="899" alt="image description" />
+						</a>
+					</li>
 				</ul>
+				<a href="akbars/map-site.html" target="_blank" class="site-map">Карта сайта</a>
 			</li>
 			<li>
 				<strong><span>Armeniahotel</span></strong>
 				<ul>
-					<li><a href="armeniahotel/about.html" target="_blank">about.html</a></li>
-					<li><a href="armeniahotel/attraction.html" target="_blank">attraction.html</a></li>
-					<li><a href="armeniahotel/attractions-list.html" target="_blank">attractions-list.html</a></li>
-					<li><a href="armeniahotel/contacts.html" target="_blank">contacts.html</a></li>
-					<li><a href="armeniahotel/hall.html" target="_blank">hall.html</a></li>
-					<li><a href="armeniahotel/main.html" target="_blank">main.html</a></li>
-					<li><a href="armeniahotel/menu.html" target="_blank">menu.html</a></li>
-					<li><a href="armeniahotel/news.html" target="_blank">news.html</a></li>
-					<li><a href="armeniahotel/popups.html" target="_blank">popups.html</a></li>
-					<li><a href="armeniahotel/room-description.html" target="_blank">description.html</a></li>
+					<li>
+						<a href="armeniahotel/main.html" target="_blank" title="armeniahotel/main.html">
+							<img src="img/armeniahotel-main.jpg" width="500" height="622" alt="image description" />
+						</a>
+					</li>
 				</ul>
+				<a href="armeniahotel/map-site.html" target="_blank" class="site-map">Карта сайта</a>
 			</li>
 			<li>
 				<strong><span>Autolombard</span></strong>
 				<ul>
-					<li><a href="autolombard/news.html" target="_blank">news.html</a></li>
-					<li><a href="autolombard/main.html" target="_blank">main.html</a></li>
-					<li><a href="autolombard/catalog.html" target="_blank">catalog.html</a></li>
-					<li><a href="autolombard/company.html" target="_blank">company.html</a></li>
-					<li><a href="autolombard/text-page.html" target="_blank">text-page.html</a></li>
+					<li>
+						<a href="autolombard/main.html" target="_blank" title="autolombard/main.html">
+							<img src="img/autolombard-main.jpg" width="500" height="719" alt="image description" />
+						</a>
+					</li>
 				</ul>
+				<a href="autolombard/map-site.html" target="_blank" class="site-map">Карта сайта</a>
 			</li>
 			<li>
 				<strong><span>Donbeton</span></strong>
 				<ul>
-					<li><a href="donbeton/main.html" target="_blank">main.html</a></li>
+					<li>
+						<a href="donbeton/main.html" target="_blank" title="donbeton/main.html">
+							<img src="img/donbeton-main.jpg" width="500" height="783" alt="image description" />
+						</a>
+					</li>
 				</ul>
-			</li>
-			<li>
-				<strong><span>Forex</span></strong>
-				<ul>
-					<li><a href="forex/main.html" target="_blank">main.html</a></li>
-				</ul>
+				<a href="donbeton/map-site.html" target="_blank" class="site-map">Карта сайта</a>
 			</li>
 			<li>
 				<strong><span>JPW</span></strong>
 				<ul>
-					<li><a href="jpw/about.html" target="_blank">about.html</a></li>
-					<li><a href="jpw/casino.html" target="_blank">casino.html</a></li>
-					<li><a href="jpw/casino-bonuses.html" target="_blank">casino-bonuses.html</a></li>
-					<li><a href="jpw/casino-guides.html" target="_blank">casino-guides.html</a></li>
-					<li><a href="jpw/casino-review.html" target="_blank">casino-review.html</a></li>
-					<li><a href="jpw/casino-roulette.html" target="_blank">casino-roulette.html</a></li>
-					<li><a href="jpw/legalized-states.html" target="_blank">legalized-states.html</a></li>
-					<li><a href="jpw/main.html" target="_blank">main.html</a></li>
-					<li><a href="jpw/mobile-casino.html" target="_blank">mobile-casino.html</a></li>
-					<li><a href="jpw/news-guides.html" target="_blank">news-guides.html</a></li>
-					<li><a href="jpw/news-item.html" target="_blank">news-item.html</a></li>
-					<li><a href="jpw/online-casino-review.html" target="_blank">online-casino-review.html</a></li>
-					<li><a href="jpw/sports.html" target="_blank">sports.html</a></li>
-					<li><a href="jpw/usa.html" target="_blank">usa.html</a></li>
+					<li>
+						<a href="jpw/main.html" target="_blank" title="jpw/main.html">
+							<img src="img/jpw-main.jpg" width="500" height="783" alt="image description" />
+						</a>
+					</li>
 				</ul>
+				<a href="jpw/map-site.html" target="_blank" class="site-map">Карта сайта</a>
 			</li>
 			<li>
-				<strong><span>Lotto-Signals</span></strong>
+				<strong><span>Lotto Signals</span></strong>
 				<ul>
-					<li><a href="lotto-signals/about.html" target="_blank">about.html</a></li>
-					<li><a href="lotto-signals/contact-us.html" target="_blank">contact-us.html</a></li>
-					<li><a href="lotto-signals/forum.html" target="_blank">forum.html</a></li>
-					<li><a href="lotto-signals/forum-my-lotto.html" target="_blank">forum-my-lotto.html</a></li>
-					<li><a href="lotto-signals/forum-profile.html" target="_blank">forum-profile.html</a></li>
-					<li><a href="lotto-signals/free-lines.html" target="_blank">free-lines.html</a></li>
-					<li><a href="lotto-signals/generated-numbers.html" target="_blank">generated-numbers.html</a></li>
-					<li><a href="lotto-signals/login.html" target="_blank">login.html</a></li>
-					<li><a href="lotto-signals/lotto-magazine.html" target="_blank">lotto-magazine.html</a></li>
-					<li><a href="lotto-signals/lotto-magazine-faq.html" target="_blank">lotto-magazine-faq.html</a></li>
-					<li><a href="lotto-signals/lotto-signals.html" target="_blank">lotto-signals.html</a></li>
-					<li><a href="lotto-signals/main.html" target="_blank">main.html</a></li>
-					<li><a href="lotto-signals/megamillions-number-checker.html" target="_blank">megamillions-number-checker.html</a></li>
-					<li><a href="lotto-signals/megamillions-numbers.html" target="_blank">megamillions-numbers.html</a></li>
-					<li><a href="lotto-signals/my-lotto-signals.html" target="_blank">my-lotto-signals.html</a></li>
-					<li><a href="lotto-signals/national-game.html" target="_blank">national-game.html</a></li>
-					<li><a href="lotto-signals/number-checkers.html" target="_blank">number-checkers.html</a></li>
-					<li><a href="lotto-signals/number-generator.html" target="_blank">number-generator.html</a></li>
-					<li><a href="lotto-signals/online-lotteries-review.html" target="_blank">online-lotteries-review.html</a></li>
-					<li><a href="lotto-signals/post-page-magazine.html" target="_blank">post-page-magazine.html</a></li>
-					<li><a href="lotto-signals/register.html" target="_blank">register.html</a></li>
-					<li><a href="lotto-signals/results-by-count-canada.html" target="_blank">results-by-count-canada.html</a></li>
-					<li><a href="lotto-signals/results-by-count-usa.html" target="_blank">results-by-count-usa.html</a></li>
-					<li><a href="lotto-signals/results-by-count-usa-lottery-jackpot.html" target="_blank">results-by-count-usa-lottery-jackpot.html</a></li>
-					<li><a href="lotto-signals/results-by-count-usa-state.html" target="_blank">results-by-count-usa-state.html</a></li>
-					<li><a href="lotto-signals/results-by-count-usa-state-megamillions-past.html" target="_blank">results-by-count-usa-state-megamillions-past.html</a></li>
-					<li><a href="lotto-signals/results-by-count-usa-state-past-results.html" target="_blank">results-by-count-usa-state-past-results.html</a></li>
-					<li><a href="lotto-signals/results-by-count-usa-vermont-megamillions.html" target="_blank">results-by-count-usa-vermont-megamillions.html</a></li>
-					<li><a href="lotto-signals/thelotter.html" target="_blank">thelotter.html</a></li>
+					<li>
+						<a href="lotto-signals/main.html" target="_blank" title="lotto-signals/main.html">
+							<img src="img/ls-main.jpg" width="500" height="783" alt="image description" />
+						</a>
+					</li>
 				</ul>
+				<a href="lotto-signals/map-site.html" target="_blank" class="site-map">Карта сайта</a>
 			</li>
 			<li>
-				<strong><span>Pronovostroiki</span></strong>
+				<strong><span>ProNovostroiki.ru</span></strong>
 				<ul>
-					<li><a href="pronovostroiki/articles.html" target="_blank">articles.html</a></li>
-					<li><a href="pronovostroiki/category-articles.html" target="_blank">category-articles.html</a></li>
-					<li><a href="pronovostroiki/law.html" target="_blank">law.html</a></li>
-					<li><a href="pronovostroiki/main.html" target="_blank">main.html</a></li>
-					<li><a href="pronovostroiki/object.html" target="_blank">object.html</a></li>
-					<li><a href="pronovostroiki/promo.html" target="_blank">promo.html</a></li>
+					<li>
+						<a href="pronovostroiki/main.html" target="_blank" title="pronovostroiki/main.html">
+							<img src="img/pronovostroiki-main.jpg" width="500" height="707" alt="image description" />
+						</a>
+					</li>
 				</ul>
+				<a href="pronovostroiki/map-site.html" target="_blank" class="site-map">Карта сайта</a>
 			</li>
 			<li>
 				<strong><span>Sibirskienomera</span></strong>
 				<ul>
-					<li><a href="sibirskienomera/apartment.html" target="_blank">apartment.html</a></li>
-					<li><a href="sibirskienomera/contacts.html" target="_blank">contacts.html</a></li>
-					<li><a href="sibirskienomera/deals.html" target="_blank">deals.html</a></li>
-					<li><a href="sibirskienomera/gallery.html" target="_blank">gallery.html</a></li>
-					<li><a href="sibirskienomera/inner.html" target="_blank">inner.html</a></li>
-					<li><a href="sibirskienomera/main.html" target="_blank">main.html</a></li>
-					<li><a href="sibirskienomera/news.html" target="_blank">news.html</a></li>
-					<li><a href="sibirskienomera/popups.html" target="_blank">popups.html</a></li>
-					<li><a href="sibirskienomera/prices.html" target="_blank">prices.html</a></li>
-					<li><a href="sibirskienomera/reviews.html" target="_blank">reviews.html</a></li>
+					<li>
+						<a href="sibirskienomera/main.html" target="_blank" title="sibirskienomera/main.html">
+							<img src="img/sibirskienomera-main.jpg" width="500" height="923" alt="image description" />
+						</a>
+					</li>
 				</ul>
+				<a href="sibirskienomera/map-site.html" target="_blank" class="site-map">Карта сайта</a>
 			</li>
 			<li>
-				<strong>
-					<span>Spain4joy</span>
-				</strong>
+				<strong><span>Spain4joy</span></strong>
 				<ul>
-					<li><a href="spain4joy/contacts.html" target="_blank">contacts.html</a></li>
-					<li><a href="spain4joy/info.html" target="_blank">info.html</a></li>
-					<li><a href="spain4joy/main.html" target="_blank">main.html</a></li>
-					<li><a href="spain4joy/rent.html" target="_blank">rent.html</a></li>
-					<li><a href="spain4joy/search-result.html" target="_blank">search-result.html</a></li>
-					<li><a href="spain4joy/selling.html" target="_blank">selling.html</a></li>
+					<li>
+						<a href="spain4joy/main.html" target="_blank" title="spain4joy/main.html">
+							<img src="img/spain4joy-main.jpg" width="500" height="707" alt="image description" />
+						</a>
+					</li>
 				</ul>
+				<a href="spain4joy/map-site.html" target="_blank" class="site-map">Карта сайта</a>
 			</li>
 		</ul>
 	</div>
