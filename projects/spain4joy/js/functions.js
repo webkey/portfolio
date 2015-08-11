@@ -256,7 +256,7 @@ function tabs(){
 		var tab = tabsWrap.find('.tab');
 				
 		// position active tab
-		var positionThis = $('.filter-search').find('li.active').find('a').position().left;
+		var positionThis = $('.filter-search').find('li.active a').position().left;
 		$('.tab-active').css({
 			left: positionThis
 		});
@@ -285,7 +285,7 @@ function tabs(){
 				tab.fadeOut(0).eq(index).fadeIn(300).animate('height');
 				
 				// transfer position active tab to overlay
-				$('.tab-active').animate({
+				$this.closest('.tabs-wrap').find('.tab-active').animate({
 					left: positionThis
 				}, 300);
 				$('select.cselect').multiselect("refresh");
