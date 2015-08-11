@@ -51,7 +51,7 @@ h1{
 	box-shadow: 0 0 5px rgba(0, 0, 0, 0.65);
 	background: rgba(255, 255, 255, 0.65);
 	border-radius: 4px;
-	padding: 13px 3px 3px;
+	padding: 13px 6px 6px;
 	-webkit-transition: 0.2s;
 	transition: 0.2s;
 	backface-visibility: hidden;
@@ -90,6 +90,7 @@ h1{
 .project-item{
 	position: relative;
 	overflow: hidden;
+	box-shadow: 0 0 2px rgba(0, 0, 0, 0.65);
 }
 .project-pages .slide{
 	max-width: 500px;
@@ -109,7 +110,7 @@ h1{
 	position: absolute;
 	left: 0;
 	top: 0;
-	padding: 0 12px;
+	padding: 4px 12px;
 	background: rgba(255, 255, 255, 0.7);
 	font-size: 18px;
 	line-height: 22px;
