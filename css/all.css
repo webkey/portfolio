@@ -64,12 +64,18 @@ h1{
 	text-align: center;
 	margin: 0;
 }
-.projects-list h3 a{
+.projects-list h3 a,
+.projects-list h3 a:visited{
 	color: #5b5b5b;
 	text-decoration: none;
+	border-bottom: 1px solid transparent;
+	-webkit-transition: 0.2s;
+	transition: 0.2s;
+	backface-visibility: hidden;
+	position: relative;
 }
 .projects-list h3 a:hover{
-	color: #787878;
+	color: #226ec1;
 }
 .projects-list h4{
 	padding: 0 0 4px;
@@ -125,7 +131,7 @@ h1{
 	backface-visibility: hidden;
 	opacity: 0;
 }
-.project-pages .slide > a:hover:before{
+.project-item:hover .project-pages .slide > a:before{
 	opacity: 1;
 }
 .projects-list .site-map{

@@ -8,8 +8,6 @@ function initSlick(){
 		//adaptiveHeight: true,
 		lazyLoad: 'ondemand'
 	}).on('afterChange', function(slick, currentSlide, nextSlide){
-		console.log('nextSlide', nextSlide);
-		console.log('this', $(this));
 		$(this).closest('li').find('h4 > span').text(nextSlide + 1);
 	});
 	$('.projects-list li').each(function () {
