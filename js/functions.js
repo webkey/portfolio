@@ -7,15 +7,14 @@ function initSlick(){
 		accessibility: false,
 		//adaptiveHeight: true,
 		lazyLoad: 'ondemand'
+	}).on('afterChange', function(slick, currentSlide, nextSlide){
+		console.log('nextSlide', nextSlide);
+		console.log('this', $(this));
+		$(this).closest('li').find('h4 > span').text(nextSlide + 1);
 	});
-	/*$('.slide').each(function () {
-		var hrefContent = $(this).find('a').attr('href');
-		$(this).find('a').prepend('<span class="title" />');
-		$(this).find('.title').text(hrefContent);
-	})*/
 	$('.projects-list li').each(function () {
 		var slideCount = $(this).find('.slide').length;
-		$(this).find('span', 'h4').text(slideCount);
+		$(this).find('h4 > strong').text(slideCount);
 	});
 }
 $(document).ready(function () {

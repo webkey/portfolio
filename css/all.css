@@ -4,7 +4,7 @@ body{
 	padding: 0;
 	font: 18px/20px 'roboto condensed', Arial, Helvetica, sans-serif;
 	color: #5b5b5b;
-	background: #fdfdfd;
+	background: #dadfe0;
 	min-width: 240px;
 }
 img{
@@ -56,9 +56,6 @@ h1{
 	transition: 0.2s;
 	backface-visibility: hidden;
 }
-.projects-list > li:hover{
-	box-shadow: 0 0 15px rgba(0, 0, 0, 0.45);
-}
 .projects-list h3{
 	padding: 0 0 14px;
 	font-size: 24px;
@@ -67,11 +64,19 @@ h1{
 	text-align: center;
 	margin: 0;
 }
+.projects-list h3 a{
+	color: #5b5b5b;
+	text-decoration: none;
+}
+.projects-list h3 a:hover{
+	color: #787878;
+}
 .projects-list h4{
 	padding: 0 0 4px;
-	font-size: 14px;
-	line-height: 16px;
+	font-size: 18px;
+	line-height: 20px;
 	color: #ff770d;
+	font-weight: normal;
 	text-align: center;
 	margin: 0;
 }
@@ -99,14 +104,10 @@ h1{
 .project-pages .slide > a{
 	display: block;
 	position: relative;
-	/*border: 2px solid #ff770d;*/
 	overflow: hidden;
 }
-.project-pages .slide > a:hover{
-	/*background-color: #ff770d;*/
-}
 .project-pages .slide > a:before{
-	content: attr(href);
+	content: attr(title);
 	position: absolute;
 	left: 0;
 	top: 0;
@@ -124,7 +125,7 @@ h1{
 	backface-visibility: hidden;
 	opacity: 0;
 }
-.projects-list > li:hover .project-pages .slide > a:before{
+.project-pages .slide > a:hover:before{
 	opacity: 1;
 }
 .projects-list .site-map{
@@ -233,7 +234,7 @@ h1{
 	display: inline-block;
 	vertical-align: top;
 	padding: 12px 25px;
-	background: rgba(255, 255, 255, 0.5);
+	background: #fff;
 	border-radius: 6px;
 	border: 2px solid #000;
 	text-transform: uppercase;
@@ -256,8 +257,8 @@ h1{
 		padding: 12px 12px;
 	}
 	.projects-list > li{
-		padding: 0 1% 40px;
-		width: 50%;
+		padding: 10px 1.5% 40px;
+		width: 46%;
 	}
 }
 @media only screen and (max-width: 419px){
@@ -265,8 +266,7 @@ h1{
 		text-align: center;
 	}
 	.projects-list > li{
-		padding: 0 0 40px;
-		width: 100%;
+		width: 96%;
 		text-align: left;
 		float: none;
 	}
