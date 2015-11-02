@@ -21,6 +21,10 @@ h1{
 	margin: 0;
 	padding: 0 0 24px;
 }
+p{
+	margin: 0;
+	padding: 0 0 16px;
+}
 .center{
 	max-width: 1500px;
 	margin: 0 auto;
@@ -55,9 +59,11 @@ h1{
 	-webkit-transition: 0.2s;
 	transition: 0.2s;
 	backface-visibility: hidden;
+
+	text-align: center;
 }
 .projects-list h3{
-	padding: 0 0 14px;
+	padding: 0 0 8px;
 	font-size: 24px;
 	line-height: 30px;
 	min-height: 30px;
@@ -77,14 +83,21 @@ h1{
 .projects-list h3 a:hover{
 	color: #226ec1;
 }
+.projects-list .desc{
+	padding: 0 0 8px;
+	text-align: center;
+}
 .projects-list h4{
-	padding: 0 0 4px;
 	font-size: 18px;
 	line-height: 20px;
 	color: #ff770d;
 	font-weight: normal;
 	text-align: center;
-	margin: 0;
+	display: inline-block;
+	vertical-align: top;
+	border: 1px solid #ff770d;
+	padding: 2px 6px;
+	margin: 0 0 8px;
 }
 .projects-list a{
 	color: #0049b0;
@@ -102,6 +115,7 @@ h1{
 	position: relative;
 	overflow: hidden;
 	box-shadow: 0 0 2px rgba(0, 0, 0, 0.65);
+	text-align: left;
 }
 .project-pages .slide{
 	max-width: 500px;
@@ -256,6 +270,26 @@ h1{
 .btn-download:hover{
 	background: #5b5b5b;
 	color: #fff;
+}
+.main-description{
+	padding: 0 2% 12px;
+	font-size: 16px;
+	line-height: 18px;
+	list-style: none;
+	margin: 0;
+}
+.main-description li{
+	padding: 0 0 8px;
+}
+.pointer-text{
+	text-transform: uppercase;
+	cursor: default;
+	color: #ff770d;
+	font-weight: bold;
+}
+.ui-tooltip {
+	max-width: 300px;
+	border: 2px solid #ff770d;
 }
 /*map site end*/
 @media only screen and (max-width: 767px){
