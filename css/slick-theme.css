@@ -175,3 +175,14 @@
 	opacity: .75;
 	color: black;
 }
+
+@media only screen and (max-width: 767px){
+	.project-pages .slide > a:before{
+		/*opacity: 0;*/
+		/*display: none;*/
+	}
+	.slick-slider .slick-prev,
+	.slick-slider .slick-next{
+		display: inline-block !important;
+	}
+}
